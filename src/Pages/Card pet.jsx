@@ -32,7 +32,7 @@ const CardPet = () => {
     }, [ enqueueSnackbar, loading, error, data ] )
 
 
-    return <Media Loading = { loading } Elements = { data?.Pets }/>
+    return <Media Elements = { data?.Pets }/>
 
 }
 
