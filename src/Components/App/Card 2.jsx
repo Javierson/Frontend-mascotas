@@ -12,17 +12,12 @@ import { List, ListItem, ListItemText } from '@mui/material'
 import { FavoriteBorderSharp, FavoriteSharp } from '@mui/icons-material'
 import { useHistory } from 'react-router-dom'
 
-/*
-        total de reviews, total de 
-fotos, total de likes, total seguidores
-
-*/
 
 export default function MediaCard({ SX, ID, Image = '', Name = '', Rating: R = 0, Elements, FollowOption }) {
 
     const [ state, setState ] = useState(false), { push } = useHistory()
 
-return <Card sx = { SX }>
+  return <Card sx = { SX }>
       <CardMedia component='img' height='400' image= { Image } alt='Profile'
       />
       <CardContent>
@@ -31,7 +26,7 @@ return <Card sx = { SX }>
         </Typography>
         { /* <Typography variant='body2' color='text.secondary'> */ }
 
-<List dense>
+      <List dense>
                { Elements?.map( ({ Title = '', Text = '' }, _) => <ListItem key = { _ }> <ListItemText primary = { Title } secondary = { Text }/> </ListItem> )
               }
             </List>

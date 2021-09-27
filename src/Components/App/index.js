@@ -10,10 +10,11 @@ import Grid from './Grid container'
 import GridPasswordField from './Grid password field'
 import GridTextField from './Grid text field'
 import GridTextMask from './Grid text mask'
+import HomeCard from './Home card'
 import Media from './Media'
 import Radio from './Radio button 2'
 import SelectInput from './Select'
 
 
-export { ControlledAccordion, Alert, Card, ColorMode, Drawer, GridButton, Grid, GridPasswordField, GridTextField, GridTextMask, Media, Radio, SelectInput }
+export { ControlledAccordion, Alert, Card, ColorMode, Drawer, GridButton, Grid, GridPasswordField, GridTextField, GridTextMask, HomeCard, Media, Radio, SelectInput }
 

@@ -1,7 +1,7 @@
 
 
-import { ControlledAccordion, Alert, Card, ColorMode, Drawer, GridButton, Grid, GridPasswordField, GridTextField, GridTextMask, Media, Radio, SelectInput } from './App'
+import { ControlledAccordion, Alert, Card, ColorMode, Drawer, GridButton, Grid, GridPasswordField, GridTextField, GridTextMask, HomeCard, Media, Radio, SelectInput } from './App'
 
 
-export { ControlledAccordion, Alert, Card, ColorMode, Drawer, GridButton, Grid, GridPasswordField, GridTextField, GridTextMask, Media, Radio, SelectInput }
+export { ControlledAccordion, Alert, Card, ColorMode, Drawer, GridButton, Grid, GridPasswordField, GridTextField, GridTextMask, HomeCard, Media, Radio, SelectInput }
 
